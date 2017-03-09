@@ -17,5 +17,11 @@ class Solution:
 
         return num == 1
 
+x = 1
+
 sol = Solution()
-print(sol.isUgly(16))
+for x in range(1, 1680):
+    if sol.isUgly(x) == True:
+       print(x)
+
+
